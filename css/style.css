@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/** globales **/
+.contenedor {
+    max-width: 32rem;
+    height: 49.7rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    padding: 1.5rem;
+    border-radius: 2.5rem;
+}
+
+.texto {
+    padding: 1rem 0 2rem 0;
+}
+
+.texto h1 {
+    color: hsl(218, 44%, 22%);
+    margin: 0 3rem;
+}
+
+.texto p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+
+
+
+
+
+
